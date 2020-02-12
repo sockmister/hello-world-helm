@@ -6,6 +6,7 @@ replicaCount: 1
 
 image:
   repository: docker.pkg.github.com/sockmister/hello-world-service/hello-world-service
+  digest: sha256:937b52924186dc3a2f8109adae07c07704bd8e98cfa93b90f50d88a52db5e705
   pullPolicy: IfNotPresent
 
 imagePullSecrets: 
