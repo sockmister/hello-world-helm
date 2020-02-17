@@ -59,7 +59,7 @@ spec:
       # previewService: ""
       # previewReplicaCount: null
       autoPromotionEnabled: true
-      autoPromotionSeconds: 10
+      autoPromotionSeconds: 60
       scaleDownDelaySeconds: 10
       # scaleDownDelayRevisionLimit: null
 
