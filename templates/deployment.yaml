@@ -55,6 +55,7 @@ spec:
     {{- end }}
   strategy:
     blueGreen:
+      activeService: {{ include "hello-world.fullname" . }}
       previewService: ""
       # previewReplicaCount: null
       autoPromotionEnabled: true
