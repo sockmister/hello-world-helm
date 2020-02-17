@@ -58,7 +58,7 @@ spec:
       activeService: {{ include "hello-world.fullname" . }}
       # previewService: ""
       # previewReplicaCount: null
-      autoPromotionEnabled: true
+      autoPromotionEnabled: {{ .Values.deployment.blueGreen.autoPromote }}
       autoPromotionSeconds: 60
       scaleDownDelaySeconds: 10
       # scaleDownDelayRevisionLimit: null
