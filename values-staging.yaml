@@ -6,7 +6,7 @@ replicaCount: 1
 
 image:
   repository: docker.pkg.github.com/sockmister/hello-world-service/hello-world-service
-  tag: 0.0.1
+  tag: broken
   pullPolicy: IfNotPresent
 
 imagePullSecrets:
