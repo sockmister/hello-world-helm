@@ -16,7 +16,7 @@ fullnameOverride: ""
 
 deployment:
   blueGreen:
-    autoPromote: false
+    autoPromote: true
 
 serviceAccount:
   # Specifies whether a service account should be created
